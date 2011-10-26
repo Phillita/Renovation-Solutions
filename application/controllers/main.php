@@ -1,7 +1,7 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Main extends CI_Controller {
-
+//comment
         public function Main(){
             parent::__construct();
             $this->load->helper('url');
