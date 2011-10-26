@@ -1,0 +1,51 @@
+#footer{
+    background-color: lavender;
+    overflow:hidden;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    height:50px;
+    padding:15px;
+    text-align: center;
+}
+#title{
+    float:left;
+}
+#content{
+    padding: 25px;
+}
+#banner{
+    background-color: lavender;
+    overflow:hidden;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
+    height:100px;
+    padding:15px;
+}
+#wrap{
+    width:80%;
+    margin:0 auto;
+}
+.floatright{
+    float: right;
+}
+.floatleft{
+    float:left;
+}
+#title h1 {
+    margin:30px 10px;
+    padding:0;
+}
+#login{
+    margin:60px 10px 0;
+    padding:0;
+}
+input{
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    -webkit-border-radius:10px;
+}
+.inputbtn:hover{
+    background-color: aqua;
+}
