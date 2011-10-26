@@ -10,7 +10,6 @@ class Main extends CI_Controller {
 	public function index()
 	{
             $pagedata['page'] = 'homepage';
-            $pagedata['disable'] = '';
             $this->load->view('container', $pagedata);
 	}
         

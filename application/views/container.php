@@ -15,12 +15,12 @@
                 <h1>Renovation Solutions</h1>
             </div>
             <div id="login" class="floatright"/>
-                <form action="<?php echo site_url() ?>/main/login" method="post"  <?php if($disable) echo $disable;?> >
+                <form action="<?php echo site_url() ?>/main/login" method="post"  <?php if(isset($disable)) echo $disable;?> >
                     Username<input type="text" id="user" name="user"/>
                     Password<input type="password" id="password" name="password"/>
                     <input type="submit" id="submit" name="submit" class="inputbtn" value="Login"/>   
                 </form>
-                <?php if($disable) echo "Welcome ".$fname.' '.$lname?>
+                <?php if(isset($disable)) echo "Welcome ".$fname.' '.$lname?>
             </div>
         </div>
         <div id="content">
