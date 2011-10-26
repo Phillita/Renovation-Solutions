@@ -20,7 +20,7 @@
                     Password<input type="password" id="password" name="password"/>
                     <input type="submit" id="submit" name="submit" class="inputbtn" value="Login"/>   
                 </form>
-                <?php if(isset($disable)) echo "Welcome ".$fname.' '.$lname?>
+                <?php if(isset($disable) && isset($fname) && isset($lname)) echo "Welcome ".$fname.' '.$lname?>
             </div>
         </div>
         <div id="content">
