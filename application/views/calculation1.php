@@ -59,7 +59,7 @@
             </table>
         </fieldset>
         <div class="clear"></div>
-        <fieldset class="clear">
+        <fieldset class="clear" style="width:85%">
             <Legend class="legendtitle">Quote</legend>
             <table id="quotestable" class="table">
                 <tr>
@@ -153,6 +153,5 @@
             <button id="resetfields" class="inputbtn" name="resetfields">Reset Fields</button>
         </div>
     </form>
-
 </div>
 
