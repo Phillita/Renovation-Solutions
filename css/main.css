@@ -7,6 +7,8 @@
     height:25px;
     padding:15px;
     text-align: center;
+    clear:both;
+    margin-top: 25px;
 }
 #title{
     float:left;
@@ -97,6 +99,14 @@ fieldset{
 .loginlabel{
     color: gray; 
     font-family: arial;
-    margin-right: 10px; 
-    margin-left: 10px; 
+    padding-left: 10px; 
+}
+
+#homesignup{
+    float:right;
+}
+
+#homecontent{
+    float:left;
+    width:55%;
 }
