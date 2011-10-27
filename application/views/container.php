@@ -16,9 +16,9 @@
             </div>
             <div id="login" class="floatright"/>
                 <form action="<?php echo site_url() ?>/main/login" method="post"  <?php if(isset($disable)) echo $disable;?> >
-                    Username<input type="text" id="user" name="user"/>
-                    Password<input type="password" id="password" name="password"/>
-                    <input type="submit" id="submit" name="submit" class="inputbtn" value="Login"/>   
+                    <label class="loginlabel">Username</label><input type="text" id="user" name="user"/>
+                    <label class="loginlabel">Password</label><input type="password" id="password" name="password"/>
+                    <input type="submit" id="submit" name="submit" class="inputbtn" style="padding:1px 5px" value="Login"/>   
                 </form>
                 <?php if(isset($disable) && isset($fname) && isset($lname)) echo "Welcome ".$fname.' '.$lname?>
             </div>

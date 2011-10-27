@@ -59,7 +59,7 @@
             </table>
         </fieldset>
         <div class="clear"></div>
-        <fieldset class="clear" style="width:85%">
+        <fieldset class="clear" style="width:90%">
             <Legend class="legendtitle">Quote</legend>
             <table id="quotestable" class="table">
                 <tr>
