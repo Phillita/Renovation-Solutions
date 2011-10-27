@@ -32,5 +32,9 @@ class Main extends CI_Controller {
         public function get_quote(){
             echo "<h1>Coming Soon</h1>";
         }
+        
+        public function sign_up(){
+            echo "<h1>Database first then we will have you digned up</h1>";
+        }
 }
 ?>
