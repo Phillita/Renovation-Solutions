@@ -42,10 +42,54 @@
     padding:0;
 }
 input{
-    -moz-border-radius: 10px;
-    border-radius: 10px;
-    -webkit-border-radius:10px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-border-radius:5px;
 }
 .inputbtn:hover{
     background-color: aqua;
+}
+
+.clear {
+    clear:both;
+}
+
+.inputbtn{
+    font:14px sans-serif;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    padding:5px;
+    margin-left:10px;
+}
+
+legend{
+    text-align: center;
+    color:blue;
+}
+fieldset{
+    border-radius:15px;
+    font: 16px sans-serif;
+    font-weight: bold;
+    padding:20px;
+    border: 5px solid #BBB;
+    margin:10px;
+}
+
+.addpadding{
+    padding-left: 50px;
+}
+
+.buttons{
+    margin-top:15px;
+    text-align:center;
+}
+
+.wrap{
+    width:90%;
+    margin:0 auto;
+}
+
+.table td{
+    padding-bottom:15px;
 }

@@ -16,7 +16,7 @@ class Main extends CI_Controller {
         public function login(){
             $pagedata = array();
             if ($_POST['user'] == 'test'){
-                $pagedata['page'] = 'loginfail';
+                $pagedata['page'] = 'calculation1';
                 $pagedata['fname'] = $_POST['user'];
                 $pagedata['lname'] = $_POST['password'];
                 $pagedata['disable'] = 'style="display: none"';
@@ -26,11 +26,11 @@ class Main extends CI_Controller {
                 $pagedata['page'] = 'main';
                 $this->load->view('container', $pagedata);
                 //echo 'user: '.$_POST['user'].' '.'password: '.$_POST['password']; 
-            }
-            
-            
-            
-                
+            }     
+        }
+        
+        public function get_quote(){
+            echo "<h1>Coming Soon</h1>";
         }
 }
 ?>
