@@ -8,6 +8,7 @@
         <script type="text/javascript" src="<?php echo base_url("js/jquery.layout.js"); ?>"></script> 
         <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css" type="text/css" media="all" />
         <link rel="stylesheet" type="text/css" href="<?php echo base_url("css/main.css"); ?>" />
+        <link rel="stylesheet" type="text/css" href="<?php echo base_url("js/css/jquery-ui-1.8.16.custom.css"); ?>"/>
 </head>
 <body>
     <div id="wrap">

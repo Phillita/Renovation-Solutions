@@ -42,5 +42,11 @@ class Main extends CI_Controller {
             $pagedata['page'] = 'mainlayout';
             $this->load->view('container', $pagedata);
         }
+        
+        public function secondary_layout(){
+            $pagedata = array();
+            $pagedata['page'] = 'secondaryLayout';
+            $this->load->view('container', $pagedata);
+        }
 }
 ?>
