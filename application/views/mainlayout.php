@@ -9,6 +9,5 @@
     <div class="ui-layout-north">North</div>
     <div class="ui-layout-south">South</div>
     <div class="ui-layout-east">East</div>
-    <div class="ui-layout-west">West2</div>
     <div class="ui-layout-west">West</div>
 </div>
