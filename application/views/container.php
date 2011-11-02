@@ -4,7 +4,8 @@
 	<meta charset="utf-8">
 	<title>Renovation Solutions</title>
         <script src="http://code.jquery.com/jquery-1.6.2.js"></script>       
-        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"          type="text/javascript"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js" type="text/javascript"></script>
+        <script type="text/javascript" src="<?php echo base_url("js/jquery.layout.js"); ?>" />
         <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.9/themes/base/jquery-ui.css" type="text/css" media="all" />
         <link rel="stylesheet" type="text/css" href="<?php echo base_url("css/main.css"); ?>" />
 </head>
