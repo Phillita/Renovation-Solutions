@@ -36,5 +36,11 @@ class Main extends CI_Controller {
         public function sign_up(){
             echo "<h1>Database first then we will have you digned up</h1>";
         }
+        
+        public function test_layout(){
+            $pagedata = array();
+            $pagedata['page'] = 'mainlayout';
+            $this->load->view('container', $pagedata);
+        }
 }
 ?>
