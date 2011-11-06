@@ -32,14 +32,52 @@
 <div id="layoutmain" style="height:600px;">
 
     <div class="ui-layout-center">
-        Outer - Center pane
-        <p>&nbsp;</p>
-        <p><a href="http://layout.jquery-dev.net/demos.html">Go&nbsp;to Demos&nbsp;page</a></p>
+        <h2>Input Information</h2>
+        <?php $this->load->view("inputVariables"); ?>
+        <h2>Quote</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Material</th>
+                    <th>Amount</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?php
+                if (isset($materials)) {
+                    foreach ($materials as $key => $value) {
+                        echo '<tr>'.
+                             '  <td>'.$key.'</td>'.
+                             '  <td>'.$value.'</td>'.
+                             '  <td>1</td>'.
+                             '</tr>';
+                    }
+                }
+                ?>
+            </tbody>
+        </table>
     </div>
 
     <div class="ui-layout-west">
-        <div class="west-center"> West - Center </div>
-        <div class="west-south">  West - South </div>
+        <div class="west-center">
+            <h2>Jobs</h2>
+            <ul>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+            </ul>
+        </div>
+        <div class="west-south">
+            <h2>Quotes</h2>
+            <ul>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+                <li>1</li>
+            </ul>
+        </div>
     </div>
 
     <div class="ui-layout-east">

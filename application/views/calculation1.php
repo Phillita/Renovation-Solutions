@@ -24,7 +24,7 @@
                         Length of Interior Wall
                     </td>
                     <td>
-                        <input type="text" id="perimeter_outer_wall" name="perimeter_outer_wall"/>
+                        <input type="text" id="perimeter_inner_wall" name="perimeter_inner_wall"/>
                     </td>
                 </tr>
                 <tr>

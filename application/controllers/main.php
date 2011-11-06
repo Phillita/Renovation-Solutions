@@ -48,5 +48,24 @@ class Main extends CI_Controller {
             $pagedata['page'] = 'secondaryLayout';
             $this->load->view('container', $pagedata);
         }
+        
+        public function calculateQuote() {
+            $drywallSize = 32;
+            $grossFloor         = $_POST['gross_floor_area'];
+            $outerWallPerimeter = $_POST['perimeter_outer_wall'];
+            $innerWallPerimeter = $_POST['perimeter_inner_wall'];
+            $wallHeight         = $_POST['wall_height'];
+            $materials = array();
+            
+            $materials['Interior Drywall'] = ($innerWallPerimeter * $wallHeight * 2) / $drywallSize;
+            $materials['Exterior Drywall'] = ($outerWallPerimeter * $wallHeight) / $drywallSize;
+            $materials['Total Drywall'] = $materials['Interior Drywall'] + $materials['Exterior Drywall'];
+            
+            // Send array back
+            $pagedata = array();
+            $pagedata['materials'] = $materials;
+            $pagedata['page'] = 'mainlayout';
+            $this->load->view('container', $pagedata);
+        }
 }
 ?>
